@@ -58,7 +58,7 @@ const Footer = () => {
 
   <p className="flex items-start gap-2">
     <FaMapMarkerAlt className="mt-1" />
-    42 Avenue des Champs-Elysées, 75000 Paris, France
+    Akobo
   </p>
 
   <p className="flex items-center gap-2 mt-2">
