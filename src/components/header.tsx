@@ -9,7 +9,8 @@ const Header = () => {
   return (
     <>
       {/* Sticky Menu Icon - Fixed beside logo */}
-      <div className=" bg-white px-[50px] flex items-center justify-between  md:hidden ">
+
+      <Link to={'/'}> <div className=" bg-white px-[50px] flex items-center justify-between  md:hidden ">
         {/* Logo (scrolls with page) */}
         <div className="flex flex-col leading-tight">
     <p
@@ -31,6 +32,8 @@ const Header = () => {
 
        
       </div>
+      </Link>
+     
 
       {/* Full Header - For Desktop */}
       <header className="hidden md:flex items-center justify-between p-4 bg-white">
