@@ -23,11 +23,7 @@ const AboutUs = () => {
         <div>
           <h2 className="text-3xl font-bold mb-4">We Always Make The Best</h2>
           <p className="text-gray-300 mb-6">
-            Kids Empathy Initiative is a charity organization located in Ibadan, Nigeria.
-            We are focused on empowering underprivileged children through education, health,
-            empathy-building programs and community support. Founded by passionate individuals,
-            our mission is to give every child a voice and a chance at a brighter future.
-          </p>
+           Our major focus is on the needy kids in Nigeria, and African continent  .. to make sure they have quality education , shelter , sound health and good life in general . And we are willing to extend this good cause to every lacking kids around the  world      </p>
           <button className="bg-white text-black px-6 py-2 rounded hover:bg-transparent hover:text-white border border-white transition">
             Contact Us
           </button>
