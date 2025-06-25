@@ -1,5 +1,6 @@
 import { FaFacebookF,FaMapMarkerAlt, FaPhone , FaTwitter, FaInstagram, FaPinterest, FaEnvelope } from "react-icons/fa";
 import bg from "../assets/1.jpg"; // Use your actual background image
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -43,13 +44,13 @@ const Footer = () => {
         <div className="space-y-2 text-sm">
           <h4 className="font-semibold mb-3">Explore</h4>
           <ul className="space-y-1">
-            <li><a href="#" className="hover:text-red-500">Home</a></li>
-            <li><a href="#" className="hover:text-red-500">Donate</a></li>
-            <li><a href="#" className="hover:text-red-500">Contact Us</a></li>
-            <li><a href="#" className="hover:text-red-500">Our Projects</a></li>
-            <li><a href="#" className="hover:text-red-500">About Us</a></li>
-           
-          </ul>
+  <li><Link to="/" className="hover:text-red-500">Home</Link></li>
+  <li><Link to="/donate" className="hover:text-red-500">Donate</Link></li>
+  <li><Link to="/contact" className="hover:text-red-500">Contact Us</Link></li>
+  <li><Link to="/projects" className="hover:text-red-500">Our Projects</Link></li>
+  <li><Link to="/aboutus" className="hover:text-red-500">About Us</Link></li>
+</ul>
+
         </div>
 
         {/* Contact Info */}

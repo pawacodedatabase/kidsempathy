@@ -9,6 +9,9 @@ import Projects from "./Backend/projects";
 import Admin from "./Backend/projectadmin";
 import ShopDetails from "./Backend/projectdetail";
 import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import DonatePage from "./pages/donate";
+import ContactUs from "./pages/contact";
+import AboutUs from "./pages/about";
 
 const App: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -57,7 +60,7 @@ const App: React.FC = () => {
             <Link to="/donate" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
               Donate
             </Link>
-            <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
+            <Link to="/aboutus" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
 About Us            </Link>
           </div>
         )}
@@ -68,8 +71,9 @@ About Us            </Link>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/admin" element={<Admin />} />
-          <Route path="/donate" element={<Admin />} />
-          <Route path="/aboutus" element={<Admin />} />
+          <Route path="/donate" element={<DonatePage />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/projects/:id" element={<ShopDetails />} />
         </Routes>
         <Footer />

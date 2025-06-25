@@ -21,6 +21,7 @@ import two5 from "../assets/3.jpg";
 import two7 from "../assets/7.jpg";
 import CausesSection from "./causes";
 import Projects from "../Backend/projects";
+import { Link } from "react-router-dom";
 
 
 const heroImages = [hero1, hero2, hero3];
@@ -72,14 +73,16 @@ const HeroSection = () => {
         >
           Join us in uplifting lives through acts of kindness and community service.
         </motion.p>
-        <motion.button
-          className="mt-4 px-6 py-3 bg-black text-[#fff] font-semibold hover:bg-white hover:text-black transition"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1, duration: 0.5 }}
-        >
-          Donate
-        </motion.button>
+      <Link to="/donate">
+  <motion.button
+    className="mt-4 px-6 py-3 bg-black text-[#fff] font-semibold hover:bg-white hover:text-black transition"
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ delay: 1, duration: 0.5 }}
+  >
+    Donate
+  </motion.button>
+</Link>
       </div>
     </div>
   );

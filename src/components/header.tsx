@@ -44,6 +44,8 @@ const Header = () => {
           <Link to="/" className="hover:text-purple-600">Home</Link>
           <Link to="/projects" className="hover:text-purple-600">Our Projects</Link>
           <Link to="/contactus" className="hover:text-purple-600">Contact Us</Link>
+          <Link to="/aboutus" className="hover:text-purple-600">About Us</Link>
+          
           <Link to="/Donate" className="hover:bg-black hover:text-white bg-[#ff0068] px-3 py-2 rounded text-white">Donate</Link>
         </nav>
       </header>
