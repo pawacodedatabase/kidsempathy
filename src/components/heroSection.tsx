@@ -62,7 +62,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          EMPOWER THROUGH COMPASSION
+          EVERY CHILD DESERVES A GOOD LIFE 
         </motion.h1>
         <motion.p
           className="mt-2 text-sm md:text-lg px-8"
@@ -71,8 +71,7 @@ const HeroSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Join us in uplifting lives through acts of kindness and community service.
-        </motion.p>
+          Join us in caring for the needy kids through acts of donation  and community service    </motion.p>
       <Link to="/donate">
   <motion.button
     className="mt-4 px-6 py-3 bg-black text-[#fff] font-semibold hover:bg-white hover:text-black transition"
