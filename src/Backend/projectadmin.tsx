@@ -164,7 +164,7 @@ const Admin: React.FC = () => {
         <input
           type="text"
           name="name"
-          placeholder="Product Name"
+          placeholder="Project Title"
           value={formData.name}
           onChange={handleInputChange}
           className="w-full p-2 border rounded"
