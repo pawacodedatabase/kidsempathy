@@ -5,8 +5,8 @@ import cause2 from "../assets/cause2.jpg";
 const CausesSection = () => {
   const cards = [
     {
-      title: "OUR MAJOR CAUSES",
-      text: "We aspire to maximally develop communities, recognizing the intricate relationship between various needs.",
+      title: "OUR GOAL",
+      text: "Our major focus is on the needy kids in Nigeria, and African continent  .. to make sure they have quality education , shelter , sound health and good life in general . And we are willing to extend this good cause to every lacking kids around the  world.",
       bgImage: cause1,
     },
     {
