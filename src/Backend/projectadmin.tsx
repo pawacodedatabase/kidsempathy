@@ -160,7 +160,7 @@ const Admin: React.FC = () => {
       {loading && <p className="text-center text-red-500">Updating...</p>}
 
       <form onSubmit={handleSubmit} className="mb-6 space-y-4">
-        <label htmlFor="" className="font-bold">Name</label>
+        <label htmlFor="" className="font-bold">Project Title</label>
         <input
           type="text"
           name="name"
@@ -188,7 +188,7 @@ const Admin: React.FC = () => {
         />
         <input type="file" accept="image/*" onChange={handleFileUpload} className="w-full p-2 border rounded" />
 
-        <p className="text-red-800 text-[13px] text-center">"Make sure your images displays before adding product and upload one after the other"</p>
+        <p className="text-red-800 text-[13px] text-center">"Make sure your images displays before adding project and upload one after the other"</p>
         {formData.images && formData.images.length > 0 && (
   <div className="flex space-x-2">
     {formData.images.map((img, index) => (
