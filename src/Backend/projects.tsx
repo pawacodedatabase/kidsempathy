@@ -66,7 +66,7 @@ const Projects: React.FC = () => {
     <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
       <h2 className="text-3xl font-semibold text-center mb-4">Our Project</h2>
       <p className="text-sm text-center mb-3 animate-bounce">
-        Every child deserves a better life
+        Every child deserves a good life
       </p>
 
       {loading ? (

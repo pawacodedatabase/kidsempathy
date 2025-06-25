@@ -29,7 +29,7 @@ const Footer = () => {
     <span className="text-sm text-gray-500  mb-2 font-medium ml-1">
     Initiative 
     </span>
-    <span className="text-[7px] mb-3 ">Every child deserves a better life</span>
+    <span className="text-[7px] mb-3 ">Every child deserves a good life</span>
   </div>
   
             <div className="flex gap-4">
