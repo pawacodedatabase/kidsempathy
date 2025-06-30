@@ -111,7 +111,7 @@ const Admin: React.FC = () => {
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.price || !formData.description || formData.images?.length === 0) {
+    if (!formData.name ||  !formData.description || formData.images?.length === 0) {
       alert("All fields are required!");
       return;
     }
@@ -226,7 +226,10 @@ const Admin: React.FC = () => {
           <div key={product.id} className="border p-4 rounded bg-gray-100 flex justify-between items-center">
             <div>
               <h4 className="text-lg font-bold">{product.name}</h4>
-              <p className="text-sm text-gray-600">{product.description}</p>
+             <p className="text-sm text-gray-600">
+  {product.description.split(' ').slice(0, 20).join(' ')}...
+</p>
+
             </div>
             <div className="space-x-2">
               <button onClick={() => handleEdit(product)} className="px-4 py-2 bg-green-500 text-white rounded">Edit</button>

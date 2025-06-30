@@ -1,6 +1,7 @@
 import { FaFacebook, FaTwitter } from 'react-icons/fa';
 import ceo from '../assets/ceo.jpg'
 import StatsSection from '../components/stat';
+import OurTeam from '../components/ourteam';
 
 const AboutUs = () => {
   return (
@@ -22,9 +23,13 @@ const AboutUs = () => {
 
         {/* About Text */}
         <div>
-          <h2 className="text-3xl font-bold mb-4">We Always Make The Best</h2>
+          <p className='text-2xl font-semibold'>Fasae Dorcas Titilope Akindehinde
+</p>
+          <h2 className="text-3xl font-thin mb-4">
+FOUNDER</h2>
+
           <p className="text-gray-300 mb-6">
-           Our major focus is on the needy kids in Nigeria, and African continent  .. to make sure they have quality education , shelter , sound health and good life in general . And we are willing to extend this good cause to every lacking kids around the  world      </p>
+           This vision is born from my pure love for the vulnerable/needy kid. And it is shaped by my childhood experience as a kid . I know what kids from low income/poor backgrounds go through to survive;this is why I have chosen to be their advocate and see them have good life .</p>
           <div className="flex space-x-4 justify-center items-center mt-6">
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
          className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition duration-300">
@@ -46,7 +51,7 @@ const AboutUs = () => {
        
 
         {/* About Text */}
-        <div>
+        {/* <div>
           <h2 className="text-3xl font-bold mb-4">We Always Make The Best</h2>
           <p className="text-gray-300 mb-6">
            Our major focus is on the needy kids in Nigeria, and African continent  .. to make sure they have quality education , shelter , sound health and good life in general . And we are willing to extend this good cause to every lacking kids around the  world      </p>
@@ -71,11 +76,12 @@ const AboutUs = () => {
           src={ceo}
           alt="CEO of Kids Empathy Initiative"
           className="w-full rounded-lg shadow-lg"
-        />
+        /> */}
       </section>
+ <OurTeam/>
 
     <StatsSection/>
-
+   
       {/* CTA */}
       <section className="relative bg-cover bg-center h-96 flex items-center justify-center" style={{ backgroundImage: "url('/images/kid-cta.jpg')" }}>
         <div className="bg-black/60 w-full h-full absolute top-0 left-0"></div>
