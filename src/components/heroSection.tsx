@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 import hero1 from "../assets/hero2.jpg";
 import hero2 from "../assets/159482c99b0367004f8a7e7313a4eed6.jpg";
 import hero3 from "../assets/3.jpg";
+import hero4 from "../assets/hero4.jpg";
+import hero5 from "../assets/hero5.jpg";
 
 // Gallery images
 import one from "../assets/1.jpg";
@@ -24,7 +26,7 @@ import Projects from "../Backend/projects";
 import { Link } from "react-router-dom";
 
 
-const heroImages = [hero1, hero2, hero3];
+const heroImages = [hero1, hero2, hero3 , hero4 , hero5];
 
 const HeroSection = () => {
   const settings = {

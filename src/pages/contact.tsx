@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaEnvelope, FaInstagram, FaLocationArrow, FaPhone, FaTiktok, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaLocationArrow, FaPhone, FaTiktok } from "react-icons/fa";
 
 
 
@@ -73,15 +73,26 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElemen
           <div className="space-y-5 text-gray-700 text-sm">
             <div className="flex items-center gap-3">
               <span className="text-[#fa0262] text-xl"><FaLocationArrow/></span>
-              <p>Ibadan, Nigeria</p>
+              <p>9 Albarka street , S A lawa close , olive primary school Bodija Ibadan</p>
             </div>
             <div className="flex items-center gap-3">
               <span className="text-[#fa0262] text-xl"><FaPhone/></span>
-              <p>+234-901-234-5678</p>
+              <p>08124094684</p>
+             
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-[#fa0262] text-xl"><FaPhone/></span>
+              <p>08062925195</p>
+             
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-[#fa0262] text-xl"><FaPhone/></span>
+              <p>08146125213</p>
+             
             </div>
             <div className="flex items-center gap-3">
               <span className="text-[#fa0262] text-xl"><FaEnvelope/></span>
-              <p>info@kidsempathy.org</p>
+              <p>info@kidsempathyinitiative.org</p>
             </div>
           </div>
 
@@ -89,9 +100,9 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElemen
           <div className="mt-6">
             <p className="font-semibold mb-2">Follow Us:</p>
             <div className="flex space-x-4 text-[#fa0262] text-xl">
-              <a href="#"><i className="fab fa-facebook"></i><FaTiktok/></a>
-              <a href="#"><i className="fab fa-twitter"></i><FaTwitter/></a>
-              <a href="#"><i className="fab fa-instagram"></i><FaInstagram/></a>
+              <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr"><i className="fab fa-facebook"></i><FaFacebook/></a>
+              <a href="https://www.tiktok.com/@kidsempathyinitiative?_t=ZM-8xdMuc7tq10&_r=1"><i className="fab fa-twitter"></i><FaTiktok/></a>
+              <a href="https://www.instagram.com/kids_empathy_initiative_?igsh=MXMzaTdmNTVqNXkxZA=="><i className="fab fa-instagram"></i><FaInstagram/></a>
             </div>
           </div>
         </div>

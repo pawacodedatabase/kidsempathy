@@ -30,11 +30,11 @@ const App: React.FC = () => {
           </button>
 
           <div className="flex items-center gap-2 text-sm text-gray-700">
-            <span>Info@kidsemapthy.org</span>
+            <span>Info@kidsempathyinitiative.org</span>
             <div className="flex gap-2 text-xl">
-              <FaFacebook />
-              <FaTiktok />
-              <FaInstagram />
+             <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr"><FaFacebook /></a>
+             <a href="https://www.tiktok.com/@kidsempathyinitiative?_t=ZM-8xdMuc7tq10&_r=1"><FaTiktok /></a>
+             <a href="https://www.instagram.com/kids_empathy_initiative_?igsh=MXMzaTdmNTVqNXkxZA=="> <FaInstagram /></a>
             </div>
           </div>
         </div>

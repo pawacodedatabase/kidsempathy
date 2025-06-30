@@ -1,4 +1,4 @@
-import { FaFacebookF,FaMapMarkerAlt, FaPhone , FaTwitter, FaInstagram, FaPinterest, FaEnvelope } from "react-icons/fa";
+import { FaFacebookF,FaMapMarkerAlt, FaPhone , FaInstagram, FaEnvelope, FaTiktok } from "react-icons/fa";
 import bg from "../assets/1.jpg"; // Use your actual background image
 import { Link } from "react-router-dom";
 
@@ -33,10 +33,9 @@ const Footer = () => {
   </div>
   
             <div className="flex gap-4">
-            <FaFacebookF className="hover:text-red-500 cursor-pointer" />
-            <FaTwitter className="hover:text-red-500 cursor-pointer" />
-            <FaInstagram className="hover:text-red-500 cursor-pointer" />
-            <FaPinterest className="hover:text-red-500 cursor-pointer" />
+          <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr"> <FaFacebookF className="hover:text-red-500 cursor-pointer" /></a> 
+            <a href="https://www.instagram.com/kids_empathy_initiative_?igsh=MXMzaTdmNTVqNXkxZA==">  <FaInstagram className="hover:text-red-500 cursor-pointer" /></a> 
+          <a href="https://www.tiktok.com/@kidsempathyinitiative?_t=ZM-8xdMuc7tq10&_r=1"> <FaTiktok className="hover:text-red-500 cursor-pointer" /></a> 
           </div>
         </div>
 
@@ -59,13 +58,22 @@ const Footer = () => {
 
   <p className="flex items-start gap-2">
     <FaMapMarkerAlt className="mt-1" />
-    Akobo
+    9 Albarka street , S A lawa close , olive primary school Bodija Ibadan .
+
   </p>
 
-  <p className="flex items-center gap-2 mt-2">
-    <FaPhone />
-    (123) 456 789
-  </p>
+<p className="flex items-center gap-2 mt-2">
+  <FaPhone />
+  <a href="tel:+2348124094684" >08124094684</a>
+</p>
+<p className="flex items-center gap-2 mt-2">
+  <FaPhone />
+  <a href="tel:+2348062925195" >08062925195</a>
+</p>
+<p className="flex items-center gap-2 mt-2">
+  <FaPhone />
+  <a href="tel:+2348146125213" >08146125213</a>
+</p>
 
   <p className="flex items-center gap-2 mt-2">
     <FaEnvelope />
@@ -89,8 +97,23 @@ const Footer = () => {
             </button>
           </div>
           
-        </div>
+        </div><div className="text-center text-sm py-6 border-t">
+  <p>&copy; {new Date().getFullYear()} KidsEmpathyInitiative |  All rights reserved.</p>
+  <p className="mt-3">
+    Website created and designed by{" "}
+    <a
+      href="https://www.tiktok.com/@pawacode?_t=ZM-8xdNTIEmq5V&_r=1"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-red-600 mt-2 hover:underline"
+    >
+      @Pawacode
+    </a>
+  </p>
+</div>
       </div>
+
+      
     </footer>
   );
 };

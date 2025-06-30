@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import ceo from '../assets/ceo.jpg'
 import StatsSection from '../components/stat';
 import OurTeam from '../components/ourteam';
@@ -29,20 +29,17 @@ const AboutUs = () => {
 FOUNDER</h2>
 
           <p className="text-gray-300 mb-6">
-           This vision is born from my pure love for the vulnerable/needy kid. And it is shaped by my childhood experience as a kid . I know what kids from low income/poor backgrounds go through to survive;this is why I have chosen to be their advocate and see them have good life .</p>
+           This vision is born from my pure love for the vulnerable/needy kids. And it is shaped by my childhood experience as a kid ;which enables me to know what kids from low income/poor backgrounds go through to survive. This is why I have chosen to be their advocate and see to it that they have good life.</p>
           <div className="flex space-x-4 justify-center items-center mt-6">
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+      <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"
          className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition duration-300">
         <FaFacebook className="w-5 h-5" />
       </a>
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-         className="p-2 bg-blue-400 hover:bg-blue-500 text-white rounded-full transition duration-300">
-        <FaTwitter className="w-5 h-5" />
+         className="p-2 bg-green-400 hover:bg-green-500 text-white rounded-full transition duration-300">
+        <FaWhatsapp className="w-5 h-5" />
       </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-         className="p-2 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-90 text-white rounded-full transition duration-300">
-        <FaTwitter className="w-5 h-5" />
-      </a>
+    
     </div>
         </div>
       </section>
