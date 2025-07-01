@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import man from '../assets/159482c99b0367004f8a7e7313a4eed6.jpg'
 
 import gtb from '../assets/gtb.png'
-import opay from '../assets/opay.jpg'
+// import opay from '../assets/opay.jpg'
 
 
 const DonatePage = () => {
@@ -142,21 +142,21 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   <div className="flex items-center gap-3 bg-white/20 p-3 rounded mb-4">
     <img src={gtb} alt="GTBank Logo" className="w-10 h-10 object-contain" />
     <div className="text-left">
-      <p className="font-semibold">Bank: GTBank</p>
-      <p>Account Name: Kids Empathy Initiative</p>
-      <p>Account Number: 3637373737</p>
+      <p className="font-semibold">Bank: FCMB</p>
+      <p>Account Name: KIDS EMPATHY INITIATIVE</p>
+      <p>Account Number: <strong>2006337756</strong> </p>
     </div>
   </div>
 
   {/* Opay */}
-  <div className="flex items-center gap-3 bg-white/20 p-3 rounded">
+  {/* <div className="flex items-center gap-3 bg-white/20 p-3 rounded">
     <img src={opay} alt="Opay Logo" className="w-10 h-10 object-contain" />
     <div className="text-left">
       <p className="font-semibold">Bank: Opay</p>
       <p>Account Name: Kids Empathy Initiative</p>
       <p>Account Number: 122222222</p>
     </div>
-  </div>
+  </div> */}
 </div>
 
         </div>
