@@ -118,7 +118,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           <input
             type="number"
             name="amount"
-            placeholder="Amount ($)"
+            placeholder="Amount (N)"
             value={formData.amount}
             onChange={handleChange}
             className="p-2 border rounded"
