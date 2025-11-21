@@ -139,14 +139,14 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   <h3 className="text-xl font-bold mb-4 text-white">Account Details</h3>
 
   {/* GTBank */}
-  <div className="flex items-center gap-3 bg-white/20 p-3 rounded mb-4">
+  {/* <div className="flex items-center gap-3 bg-white/20 p-3 rounded mb-4">
     <img src={gtb} alt="GTBank Logo" className="w-10 h-10 object-contain" />
     <div className="text-left">
       <p className="font-semibold">Bank: FCMB</p>
       <p>Account Name: KIDS EMPATHY INITIATIVE</p>
       <p>Account Number: <strong>2006337756</strong> </p>
     </div>
-  </div>
+  </div> */}
 
   {/* Opay */}
   <div className="flex items-center gap-3 bg-white/20 p-3 rounded">
