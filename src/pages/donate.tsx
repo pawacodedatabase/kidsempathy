@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import man from '../assets/159482c99b0367004f8a7e7313a4eed6.jpg'
 
-import gtb from '../assets/gtb.png'
+// import gtb from '../assets/gtb.png'
 import opay from '../assets/Polaris-Bank-Limited.png'
 
 
