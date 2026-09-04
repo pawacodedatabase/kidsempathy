@@ -77,8 +77,8 @@ const Footer = () => {
 
   <p className="flex items-center gap-2 mt-2">
     <FaEnvelope />
-    <a href="mailto:info@kidsempathy.org" className="hover:text-red-500">
-      info@kidsempathy.org
+    <a href="mailto:kidsempathyinitiative@outlook.com" className="hover:text-red-500">
+    kidsempathyinitiative@outlook.com
     </a>
   </p>
 </div>

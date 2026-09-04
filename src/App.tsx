@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import Projects from "./Backend/projects";
 import Admin from "./Backend/projectadmin";
 import ShopDetails from "./Backend/projectdetail";
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 import DonatePage from "./pages/donate";
 import ContactUs from "./pages/contact";
 import AboutUs from "./pages/about";
@@ -30,11 +30,21 @@ const App: React.FC = () => {
           </button>
 
           <div className="flex items-center gap-2 text-sm text-gray-700">
-            <span>Info@kidsempathyinitiative.org</span>
+        
             <div className="flex gap-2 text-xl">
-             <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr"><FaFacebook /></a>
-             <a href="https://www.tiktok.com/@kidsempathyinitiative?_t=ZM-8xdMuc7tq10&_r=1"><FaTiktok /></a>
-             <a href="https://www.instagram.com/kids_empathy_initiative_?igsh=MXMzaTdmNTVqNXkxZA=="> <FaInstagram /></a>
+              <a href="mailto:kidsempathyinitiative@outlook.com">
+                <FaEnvelope />
+              </a>
+              <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr">
+                <FaFacebook />
+              </a>
+              <a href="https://www.tiktok.com/@kidsempathyinitiative?_t=ZM-8xdMuc7tq10&_r=1">
+                <FaTiktok />
+              </a>
+              <a href="https://www.instagram.com/kids_empathy_initiative_?igsh=MXMzaTdmNTVqNXkxZA==">
+                {" "}
+                <FaInstagram />
+              </a>
             </div>
           </div>
         </div>
@@ -48,20 +58,41 @@ const App: React.FC = () => {
             >
               <X size={32} />
             </button>
-            <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
+            <Link
+              to="/"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-purple-600"
+            >
               Home
             </Link>
-            <Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
+            <Link
+              to="/projects"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-purple-600"
+            >
               Projects
             </Link>
-            <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
+            <Link
+              to="/contact"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-purple-600"
+            >
               Contact Us
             </Link>
-            <Link to="/donate" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
+            <Link
+              to="/donate"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-purple-600"
+            >
               Donate
             </Link>
-            <Link to="/aboutus" onClick={() => setMenuOpen(false)} className="hover:text-purple-600">
-About Us            </Link>
+            <Link
+              to="/aboutus"
+              onClick={() => setMenuOpen(false)}
+              className="hover:text-purple-600"
+            >
+              About Us{" "}
+            </Link>
           </div>
         )}
 
