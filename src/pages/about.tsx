@@ -29,8 +29,92 @@ const AboutUs = () => {
           <h2 className="text-3xl font-thin mb-4">
 FOUNDER</h2>
 
-          <p className="text-gray-300 mb-6">
-           This vision is born from my pure love for the vulnerable/needy kids. And it is shaped by my childhood experience as a kid ;which enables me to know what kids from low income/poor backgrounds go through to survive. This is why I have chosen to be their advocate and see to it that they have good life.</p>
+        <p className="text-gray-300 mb-6">
+          Kids Empathy Initiative was born out of a simple but powerful belief: every child deserves love, care, dignity, and the opportunity to have a better future.</p>
+<p className="text-gray-300 mb-6">
+There are so many children in our communities who have dreams and great potential, but sometimes lack the basic resources they need to learn, grow, and thrive. A school bag, books, pencils, clothing, food, or even a simple act of kindness may seem small to us, but to a child, it can mean the world.
+</p>
+
+<p className="text-gray-300 mb-6">
+At KEI, we believe that no child should feel forgotten or left behind simply because of their circumstances.
+</p>
+
+<p className="text-gray-300 mb-6">
+  
+Our mission is not just to give relief materials. We want to give children hope. We want them to know that there are people who care about them and believe in their future.
+</p>
+
+<p className="text-gray-300 mb-6">
+
+  
+Today, as we reach out to these children, I want us to remember that kindness is powerful. We may not be able to change the whole world at once, but we can change the world of one child. And when we continue doing that, one child at a time, we create a better society for everyone.
+</p>
+
+
+<p className="text-gray-300 mb-6">
+
+  
+
+I also want to appeal to individuals, organisations, businesses, and everyone who has the capacity to support this vision: please join us.
+</p>
+
+
+<p className="text-gray-300 mb-6">
+
+
+Your contribution, no matter how big or small, can help put a smile on a child’s face, keep a child in school, and remind a child that their dreams matter.
+
+
+
+</p>
+
+<p className="text-gray-300 mb-6">
+
+  As the Founder of KEI, I am committed to building an initiative that does more than provide temporary assistance. I want KEI to become a platform where children are supported, encouraged, empowered, and given opportunities to become the best versions of themselves.
+</p>
+
+
+<p className="text-gray-300 mb-6">
+
+
+To every volunteer, donor, supporter, and well-wisher, thank you for believing in this vision.
+
+
+</p>
+
+<p className="text-gray-300 mb-6">
+
+Together, we can raise a generation that understands empathy, compassion, kindness, and the importance of helping others.
+
+
+</p>
+
+<p className="text-gray-300 mb-6">
+
+  Let us continue to care, give, empower, and make a difference.
+
+</p>
+
+
+<p className="text-gray-300 mb-6">
+
+Because sometimes, the smallest act of kindness can become the biggest reason a child believes in tomorrow.
+
+</p>
+
+<p className="text-gray-300 mb-6">
+
+  
+Thank you, and God bless you all.
+</p>
+
+
+<p className="text-gray-300 mb-6">
+  
+Fasae Dorcas Titilope
+Founder, Kids Empathy Initiative (KEI)  
+</p>
+
           <div className="flex space-x-4 justify-center items-center mt-6">
       <a href="https://www.facebook.com/share/1FYEnBpB6H/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"
          className="p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition duration-300">
